@@ -7,7 +7,7 @@ Group: 		Development/Tools
 URL: 		https://github.com/linux-nvme/nvme-cli/
 Source: 	nvme-@@VERSION@@.tar.gz
 Provides:	nvme
-Requires(post): uuidgen
+Requires(post): util-linux
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
